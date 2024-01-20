@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: var(--off-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+}
+
+img {
+    max-width: 25%;
+}
+
+.container {
+    background-color: var(--dark-grey);
+    padding: 1.90rem;
+    border-radius: 0.625rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.container h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container h3 {
+    color: var(--green);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container p {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container a:link, .container a:visited {
+    background-color: var(--grey);
+    color: var(--white);
+    width: 100%;
+    font-weight: bold;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 0.625rem;
+}
+
+.container a:hover {
+    background-color: var(--off-black);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+}
