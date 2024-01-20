@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1705774798878,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1705774954177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n-.container h3 {\n+.container h2 {\n     color: var(--green);\n     text-align: center;\n     margin-bottom: 2rem;\n }\n"
                 }
             ],
             "date": 1705774798878,

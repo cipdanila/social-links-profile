@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1705774308335,
@@ -28,6 +28,10 @@
                 {
                     "date": 1705774781069,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     <body>\n         <main>\n             <div class=\"container\">\n                 <img src=\"./assets/images/avatar-jessica.jpeg\" alt=\"avatar-jessica\" />\n-                <h2>Jessica Randall</h2>\n+                <h1>Jessica Randall</h1>\n                 <h3>London, United Kingdom</h3>\n                 <p>\"Front-end developer and avid reader.\"</p>\n                 <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>\n                 <a href=\"https://www.frontendmentor.io\" target=\"_blank\" rel=\"noopener noreferrer\">Frontend Mentor</a>\n"
+                },
+                {
+                    "date": 1705774949129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <main>\n             <div class=\"container\">\n                 <img src=\"./assets/images/avatar-jessica.jpeg\" alt=\"avatar-jessica\" />\n                 <h1>Jessica Randall</h1>\n-                <h3>London, United Kingdom</h3>\n+                <h2>London, United Kingdom</h2>\n                 <p>\"Front-end developer and avid reader.\"</p>\n                 <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>\n                 <a href=\"https://www.frontendmentor.io\" target=\"_blank\" rel=\"noopener noreferrer\">Frontend Mentor</a>\n                 <a href=\"https://www.linkedin.com/\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>\n"
                 }
             ],
             "date": 1705774308334,
