@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1705774308335,
@@ -24,6 +24,10 @@
                 {
                     "date": 1705774379606,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,12 @@\n                 <a href=\"https://www.instagram.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram</a>\n             </div>\n         </main>\n \n-        <div class=\"attribution\">\n-            Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\" rel=\"noopener\">Frontend Mentor</a>.\n-            Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferrer\">Ciprian Danila</a>.\n-        </div>\n+        <footer>\n+            <div class=\"attribution\">\n+                Challenge by <a href=\"https://www.frontendmentor.io?ref=challenge\" target=\"_blank\" rel=\"noopener\">Frontend Mentor</a>.\n+                Coded by <a href=\"https://github.com/cipdanila\" target=\"_blank\" rel=\"noopener noreferrer\">Ciprian Danila</a>.\n+            </div>\n+        </footer>\n     </body>\n </html>\n"
+                },
+                {
+                    "date": 1705774781069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     <body>\n         <main>\n             <div class=\"container\">\n                 <img src=\"./assets/images/avatar-jessica.jpeg\" alt=\"avatar-jessica\" />\n-                <h2>Jessica Randall</h2>\n+                <h1>Jessica Randall</h1>\n                 <h3>London, United Kingdom</h3>\n                 <p>\"Front-end developer and avid reader.\"</p>\n                 <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>\n                 <a href=\"https://www.frontendmentor.io\" target=\"_blank\" rel=\"noopener noreferrer\">Frontend Mentor</a>\n"
                 }
             ],
             "date": 1705774308334,

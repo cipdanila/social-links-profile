@@ -1,0 +1,18 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1705774798878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1705774798878,
+            "name": "Commit-0",
+            "content": "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\n:root {\n    --white: hsl(0, 0%, 100%);\n    --grey: hsl(0, 0%, 20%);\n    --dark-grey: hsl(0, 0%, 12%);\n    --off-black: hsl(0, 0%, 8%);\n    --green: hsl(75, 94%, 57%);\n}\n\nbody {\n    font-family: \"Inter\", sans-serif;\n    font-size: 14px;\n    background-color: var(--off-black);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    height: calc(100vh - 1px);\n    margin: 1.25rem;\n}\n\nimg {\n    max-width: 25%;\n}\n\n.container {\n    background-color: var(--dark-grey);\n    padding: 1.90rem;\n    border-radius: 0.625rem;\n    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-bottom: 2rem;\n}\n\n.container img {\n    border-radius: 50%;\n    margin-bottom: 1rem;\n}\n\n.container h1 {\n    color: var(--white);\n    text-align: center;\n    margin-bottom: 1rem;\n}\n\n.container h3 {\n    color: var(--green);\n    text-align: center;\n    margin-bottom: 2rem;\n}\n\n.container p {\n    color: var(--white);\n    text-align: center;\n    margin-bottom: 2rem;\n}\n\n.container a:link, .container a:visited {\n    background-color: var(--grey);\n    color: var(--white);\n    width: 100%;\n    font-weight: bold;\n    padding: 10px 30px;\n    text-align: center;\n    text-decoration: none;\n    display: block;\n    margin-bottom: 1rem;\n    border-radius: 0.625rem;\n}\n\n.container a:hover {\n    background-color: var(--off-black);\n}\n\n.attribution {\n    font-size: 11px;\n    text-align: center;\n}\n.attribution a {\n    color: hsl(228, 45%, 44%);\n}\n\n@media (min-width: 375px) {\n    .container {\n        width: 375px;\n    }\n}\n"
+        }
+    ]
+}
