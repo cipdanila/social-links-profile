@@ -78,7 +78,8 @@ img {
 }
 
 .container a:hover {
-    background-color: var(--off-black);
+    background-color: var(--green);
+    color: var(--off-black);
 }
 
 .attribution {
