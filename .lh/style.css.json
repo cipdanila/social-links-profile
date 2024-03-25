@@ -1,0 +1,894 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 219,
+            "patches": [
+                {
+                    "date": 1711305175425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1711305191547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: ;\n+    padding: 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n@@ -32,9 +32,8 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    margin: 7rem 2rem;\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305206985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n+    margin: 0 auto;\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305214574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n     padding: 1rem;\n+    margin: 0 auto;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n@@ -32,9 +33,8 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    margin: 0 auto;\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305220773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n     padding: 1rem;\n-    margin: 0 auto;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n@@ -33,8 +32,9 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n+    margin: 0 auto;\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305235958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 1rem;\n+    padding: 4rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n@@ -32,9 +32,8 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    margin: 0 auto;\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305247714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 4rem 1rem;\n+    padding: 6rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n"
+                },
+                {
+                    "date": 1711305255867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 2rem;\n+    /* padding: 2rem; */\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711305266799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 6rem 1rem;\n+    padding: 6rem 2rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    /* padding: 2rem; */\n+    padding: 2rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711305273475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 6rem 2rem;\n+    padding: 7rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n"
+                },
+                {
+                    "date": 1711305286600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 2rem;\n+    padding: 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711305328483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n+    justify-content: center;\n     align-items: center;\n }\n \n .profile__avatar {\n"
+                },
+                {
+                    "date": 1711305357178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,12 @@\n     background-color: var(--dark-grey);\n     padding: 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    display: flex;\n+    /* display: flex;\n     flex-direction: column;\n     justify-content: center;\n-    align-items: center;\n+    align-items: center; */\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305387136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,8 @@\n     background-color: var(--dark-grey);\n     padding: 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    /* display: flex;\n-    flex-direction: column;\n-    justify-content: center;\n-    align-items: center; */\n }\n \n .profile__avatar {\n     max-width: 35%;\n"
+                },
+                {
+                    "date": 1711305405960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 7rem 1rem;\n+    padding: 7rem 0;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n"
+                },
+                {
+                    "date": 1711305411891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 7rem 0;\n+    padding: 7rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n"
+                },
+                {
+                    "date": 1711305434863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem;\n+    padding: 1rem 2rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n }\n \n"
+                },
+                {
+                    "date": 1711305490526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n }\n \n .profile__avatar {\n+    align-items: center;\n     max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n }\n"
+                },
+                {
+                    "date": 1711305499933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,8 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n }\n \n .profile__avatar {\n-    align-items: center;\n     max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n }\n"
+                },
+                {
+                    "date": 1711305507799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    margin: 0 auto;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305515433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n \n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n-    margin: 0 auto;\n+    margin-bottom: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305523522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,9 @@\n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n+    justify-content: center;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305561525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n-    justify-content: center;\n+    padding: 0.5rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305573972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n }\n \n .profile__avatar {\n-    max-width: 35%;\n+    max-width: 45%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n     padding: 0.5rem;\n }\n"
+                },
+                {
+                    "date": 1711305637222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,13 @@\n     background-color: var(--dark-grey);\n     padding: 1rem 2rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n+    display: flex;\n }\n \n .profile__avatar {\n-    max-width: 45%;\n+    max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n     padding: 0.5rem;\n }\n"
+                },
+                {
+                    "date": 1711305655839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,8 +30,11 @@\n     padding: 1rem 2rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n }\n \n .profile__avatar {\n     max-width: 40%;\n"
+                },
+                {
+                    "date": 1711305668102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem 2rem;\n+    padding: 1rem 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711305679682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem 1rem;\n+    padding: 1rem 2rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n@@ -39,9 +39,9 @@\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n-    padding: 0.5rem;\n+    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305689613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n-    padding: 1rem;\n+    /* padding: 0.5rem; */\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305709033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 1rem;\n-    /* padding: 0.5rem; */\n+    padding: 0.5rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305745135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,9 @@\n }\n \n .profile__name {\n     color: var(--white);\n+    font-size: 1.1rem;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305772552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,11 +44,11 @@\n }\n \n .profile__name {\n     color: var(--white);\n-    font-size: 1.1rem;\n+    font-size: 1.5rem;\n     text-align: center;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711305784495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,17 +38,17 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    margin-bottom: 2rem;\n     padding: 0.5rem;\n }\n \n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* margin-bottom: 1rem; */\n+    margin-bottom: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711305792516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    margin-bottom: 2rem;\n+    margin-bottom: 1rem;\n     padding: 0.5rem;\n }\n \n .profile__name {\n"
+                },
+                {
+                    "date": 1711305819169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    margin-bottom: 2rem;\n     padding: 0.5rem;\n }\n \n .profile__name {\n@@ -51,8 +51,9 @@\n }\n \n .profile__location {\n     color: var(--green);\n+    font-size: 1rem;\n     text-align: center;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305826330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n }\n \n .profile__location {\n     color: var(--green);\n-    font-size: 1rem;\n+    font-size: 0.8rem;\n     text-align: center;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305841806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,11 +51,11 @@\n }\n \n .profile__location {\n     color: var(--green);\n-    font-size: 0.8rem;\n+    font-size: 0.9rem;\n     text-align: center;\n-    margin-bottom: 2rem;\n+    margin-bottom: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711305860536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    margin-bottom: 2rem;\n+    margin-bottom: 1rem;\n     padding: 0.5rem;\n }\n \n .profile__name {\n"
+                },
+                {
+                    "date": 1711305867200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    margin-bottom: 2rem;\n     padding: 0.5rem;\n }\n \n .profile__name {\n"
+                },
+                {
+                    "date": 1711305879626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,8 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n+    letter-spacing: ;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305888670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: ;\n+    letter-spacing: 0.3px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305897900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: 0.3px;\n+    letter-spacing: 0.2px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305907574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: 0.2px;\n+    letter-spacing: -0.5px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305915456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: -0.5px;\n+    letter-spacing: -0.4px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305923359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: -0.4px;\n+    letter-spacing: -0.35px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305931204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: -0.35px;\n+    letter-spacing: -0.3px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305941258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n-    letter-spacing: -0.3px;\n+    letter-spacing: -0.25px;\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711305972590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,10 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711305992563,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,10 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306013405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n-    padding: 0.5rem;\n+    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306028982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,8 @@\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n-    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306038126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__avatar {\n-    max-width: 40%;\n+    max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711306062081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,18 +45,16 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n \n .profile__bio {\n"
+                },
+                {
+                    "date": 1711306114105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,12 @@\n     align-items: center;\n     justify-content: center;\n }\n \n+.profile__info {\n+    padding: 1rem;\n+}\n+\n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n"
+                },
+                {
+                    "date": 1711306124224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711306145129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     padding: 1rem;\n }\n \n .profile__avatar {\n-    max-width: 35%;\n+    max-width: 40%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n@@ -57,9 +57,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306186949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n     justify-content: center;\n }\n \n .profile__info {\n-    padding: 1rem;\n+    padding: 2rem;\n }\n \n .profile__avatar {\n-    max-width: 40%;\n+    max-width: 30%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711306194967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__info {\n-    padding: 2rem;\n+    padding: 5rem;\n }\n \n .profile__avatar {\n     max-width: 30%;\n"
+                },
+                {
+                    "date": 1711306211175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__info {\n-    padding: 5rem;\n+    padding: 1rem;\n }\n \n .profile__avatar {\n     max-width: 30%;\n"
+                },
+                {
+                    "date": 1711306255162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     padding: 1rem;\n }\n \n .profile__avatar {\n-    max-width: 30%;\n+    max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711306260753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     padding: 1rem;\n }\n \n .profile__avatar {\n-    max-width: 35%;\n+    max-width: 30%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n"
+                },
+                {
+                    "date": 1711306282529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,31 +35,27 @@\n     align-items: center;\n     justify-content: center;\n }\n \n-.profile__info {\n-    padding: 1rem;\n-}\n-\n .profile__avatar {\n-    max-width: 30%;\n+    max-width: 35%;\n     border-radius: 50%;\n     margin-bottom: 2rem;\n }\n \n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* padding: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    /* padding: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306326377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n-    margin-bottom: 2rem;\n+    margin-bottom: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306340276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711306350077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* padding: 1rem; */\n+    padding: 1.5rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711306357378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 1.5rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306369619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,17 +45,17 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1.5rem;\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1.5rem;\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306392233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,8 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    margin-bottom: 2rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711306400429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,8 +59,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n+    margin-bottom: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711306426052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 10px 30px;\n+    /* padding: 10px 30px; */\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306441336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    /* padding: 10px 30px; */\n+    padding: 1rem 2rem;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306468395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1rem 2rem;\n+    padding: 0.5rem 2rem;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306475339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 0.5rem 2rem;\n+    padding: 1em 2rem;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306481386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 2rem;\n+    padding: 1em 2em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306488914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 2em;\n+    padding: 1em 5em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306558022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 5em;\n+    padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711306597498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem 2rem;\n+    padding: 1rem 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711306655627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem 1rem;\n+    padding: 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711306719815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,10 @@\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n+.profile__s\n+\n .profile__social-media a {\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n"
+                },
+                {
+                    "date": 1711306735061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,11 @@\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n-.profile__s\n+.profile__social-media {\n+    padding: 1rem;\n+}\n \n .profile__social-media a {\n     background-color: var(--grey);\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711306758925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n     margin-bottom: 1rem;\n }\n \n .profile__social-media {\n-    padding: 1rem;\n+    padding: 0 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711306775840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n     margin-bottom: 1rem;\n }\n \n .profile__social-media {\n-    padding: 0 1rem;\n+    margin-bottom: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711306811387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,12 +62,8 @@\n     text-align: center;\n     margin-bottom: 1rem;\n }\n \n-.profile__social-media {\n-    margin-bottom: 1rem;\n-}\n-\n .profile__social-media a {\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n"
+                },
+                {
+                    "date": 1711306835978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,8 +80,11 @@\n     background-color: var(--green);\n     color: var(--off-black);\n }\n \n+.footer {\n+    margin: ;\n+}\n \n .attribution {\n     font-size: 11px;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1711306846220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     color: var(--off-black);\n }\n \n .footer {\n-    margin: ;\n+    margin: 2rem;\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1711306851875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n     color: var(--off-black);\n }\n \n .footer {\n-    margin: 2rem;\n+    margin: 3rem;\n }\n \n .attribution {\n     font-size: 11px;\n"
+                },
+                {
+                    "date": 1711306918210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,12 +80,8 @@\n     background-color: var(--green);\n     color: var(--off-black);\n }\n \n-.footer {\n-    margin: 3rem;\n-}\n-\n .attribution {\n     font-size: 11px;\n     text-align: center;\n }\n"
+                },
+                {
+                    "date": 1711310356246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 7rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem;\n+    padding: 7rem 1rem;\n+    /* padding: 1rem; */\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711310373064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,13 +21,13 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n+    padding: 7rem 1rem;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 7rem 1rem;\n     /* padding: 1rem; */\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n"
+                },
+                {
+                    "date": 1711310384103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    /* padding: 1rem; */\n+    padding: 1.1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711310404830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1.1rem;\n+    padding: 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 2rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310410990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 2rem;\n+    padding: 1.5rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310423098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1.5rem;\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310431993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 2rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310443554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 2rem;\n+    /* padding: 0.5rem; */\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310464109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,8 +60,9 @@\n .profile__bio {\n     color: var(--white);\n     text-align: center;\n     margin-bottom: 1rem;\n+    padding: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310471097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n \n .profile__social-media a {\n"
+                },
+                {
+                    "date": 1711310493414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n .profile__bio {\n     color: var(--white);\n     text-align: center;\n     /* margin-bottom: 1rem; */\n-    padding: 1rem;\n+    padding: 2rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310506998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 35%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n }\n \n .profile__name {\n     color: var(--white);\n@@ -60,9 +60,9 @@\n .profile__bio {\n     color: var(--white);\n     text-align: center;\n     /* margin-bottom: 1rem; */\n-    padding: 2rem;\n+    padding: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310519860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__avatar {\n-    max-width: 35%;\n+    max-width: 30%;\n     border-radius: 50%;\n     /* margin-bottom: 1rem; */\n }\n \n"
+                },
+                {
+                    "date": 1711310590523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 30%;\n     border-radius: 50%;\n-    /* margin-bottom: 1rem; */\n+    margin-bottom: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310602142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 30%;\n     border-radius: 50%;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310611222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n .profile__avatar {\n     max-width: 30%;\n     border-radius: 50%;\n     /* margin-bottom: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310620979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__avatar {\n-    max-width: 30%;\n+    max-width: 40%;\n     border-radius: 50%;\n     /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n"
+                },
+                {
+                    "date": 1711310628223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,8 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n \n .profile__name {\n"
+                },
+                {
+                    "date": 1711310642916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,92 @@\n+@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n+\n+:root {\n+    --white: hsl(0, 0%, 100%);\n+    --grey: hsl(0, 0%, 20%);\n+    --dark-grey: hsl(0, 0%, 12%);\n+    --off-black: hsl(0, 0%, 8%);\n+    --green: hsl(75, 94%, 57%);\n+}\n+\n+*, *::after, *::before {\n+    margin: 0;\n+    padding: 0;\n+    box-sizing: border-box;\n+}\n+\n+body {\n+    font-family: \"Inter\", sans-serif;\n+    font-size: 14px;\n+    background-color: var(--off-black);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+    padding: 7rem 1rem;\n+}\n+\n+.profile {\n+    background-color: var(--dark-grey);\n+    padding: 1rem;\n+    border-radius: 0.75rem;\n+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+}\n+\n+.profile__avatar {\n+    max-width: 40%;\n+    border-radius: 50%;\n+    padding: 1rem;\n+}\n+\n+.profile__name {\n+    color: var(--white);\n+    font-size: 1.5rem;\n+    text-align: center;\n+    padding: 1rem;\n+}\n+\n+.profile__location {\n+    color: var(--green);\n+    font-size: 0.9rem;\n+    letter-spacing: -0.25px;\n+    text-align: center;\n+    padding: 0.5rem;\n+}\n+\n+.profile__bio {\n+    color: var(--white);\n+    text-align: center;\n+    /* margin-bottom: 1rem; */\n+    padding: 1rem;\n+}\n+\n+.profile__social-media a {\n+    background-color: var(--grey);\n+    color: var(--white);\n+    width: 100%;\n+    font-weight: bold;\n+    padding: 1em 6em;\n+    text-align: center;\n+    text-decoration: none;\n+    display: block;\n+    margin-bottom: 1rem;\n+    border-radius: 0.625rem;\n+}\n+\n+.profile__social-media a:hover {\n+    background-color: var(--green);\n+    color: var(--off-black);\n+}\n+\n+.attribution {\n+    font-size: 11px;\n+    text-align: center;\n+}\n+\n+.attribution a {\n+    color: hsl(228, 45%, 44%);\n+}\n"
+                },
+                {
+                    "date": 1711310650616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.5rem;\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310664651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,8 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n@@ -89,96 +88,4 @@\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n-@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n-\n-:root {\n-    --white: hsl(0, 0%, 100%);\n-    --grey: hsl(0, 0%, 20%);\n-    --dark-grey: hsl(0, 0%, 12%);\n-    --off-black: hsl(0, 0%, 8%);\n-    --green: hsl(75, 94%, 57%);\n-}\n-\n-*, *::after, *::before {\n-    margin: 0;\n-    padding: 0;\n-    box-sizing: border-box;\n-}\n-\n-body {\n-    font-family: \"Inter\", sans-serif;\n-    font-size: 14px;\n-    background-color: var(--off-black);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-    padding: 7rem 1rem;\n-}\n-\n-.profile {\n-    background-color: var(--dark-grey);\n-    padding: 1rem;\n-    border-radius: 0.75rem;\n-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-}\n-\n-.profile__avatar {\n-    max-width: 40%;\n-    border-radius: 50%;\n-    padding: 1rem;\n-}\n-\n-.profile__name {\n-    color: var(--white);\n-    font-size: 1.5rem;\n-    text-align: center;\n-    padding: 1rem;\n-}\n-\n-.profile__location {\n-    color: var(--green);\n-    font-size: 0.9rem;\n-    letter-spacing: -0.25px;\n-    text-align: center;\n-    /* padding: 0.5rem; */\n-}\n-\n-.profile__bio {\n-    color: var(--white);\n-    text-align: center;\n-    /* margin-bottom: 1rem; */\n-    padding: 1rem;\n-}\n-\n-.profile__social-media a {\n-    background-color: var(--grey);\n-    color: var(--white);\n-    width: 100%;\n-    font-weight: bold;\n-    padding: 1em 6em;\n-    text-align: center;\n-    text-decoration: none;\n-    display: block;\n-    margin-bottom: 1rem;\n-    border-radius: 0.625rem;\n-}\n-\n-.profile__social-media a:hover {\n-    background-color: var(--green);\n-    color: var(--off-black);\n-}\n-\n-.attribution {\n-    font-size: 11px;\n-    text-align: center;\n-}\n-\n-.attribution a {\n-    color: hsl(228, 45%, 44%);\n-}\n"
+                },
+                {
+                    "date": 1711310672834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,8 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    /* margin-bottom: 1rem; */\n     padding: 1rem;\n }\n \n .profile__social-media a {\n"
+                },
+                {
+                    "date": 1711310715776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,12 @@\n     align-items: center;\n     justify-content: center;\n }\n \n+.profile__info {\n+    padding: auto;\n+}\n+\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1711310722672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__info {\n-    padding: auto;\n+    padding: 1rem;\n }\n \n .profile__avatar {\n     max-width: 40%;\n"
+                },
+                {
+                    "date": 1711310742470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711310754063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__location {\n     color: var(--green);\n@@ -62,9 +62,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310765770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     padding: 1rem;\n }\n \n .profile__avatar {\n-    max-width: 40%;\n+    max-width: 30%;\n     border-radius: 50%;\n     /* padding: 1rem; */\n }\n \n"
+                },
+                {
+                    "date": 1711310772898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,18 +40,18 @@\n     padding: 1rem;\n }\n \n .profile__avatar {\n-    max-width: 30%;\n+    max-width: 40%;\n     border-radius: 50%;\n-    /* padding: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* padding: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n@@ -62,9 +62,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    /* padding: 1rem; */\n+    padding: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310809067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310845198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 0 1rem;\n+    /* padding: 0 1rem; */\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310875745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,10 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    /* padding: 0 1rem; */\n+    padding: 0 1rem;\n+    border-top: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310892429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n     padding: 0 1rem;\n-    border-top: 1rem;\n+    margin-top: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310902370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n     padding: 0 1rem;\n-    margin-top: 1rem;\n+    margin-bottom: 2rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310910641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n     padding: 0 1rem;\n-    margin-bottom: 2rem;\n+    margin-bottom: 5rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310923609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n     padding: 0 1rem;\n-    margin-bottom: 5rem;\n+    margin: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310932918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,8 @@\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n     padding: 0 1rem;\n-    margin: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310938892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 0 1rem;\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711310956142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n@@ -62,9 +62,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310971607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,12 +35,8 @@\n     align-items: center;\n     justify-content: center;\n }\n \n-.profile__info {\n-    padding: 1rem;\n-}\n-\n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n     padding: 1rem;\n@@ -62,9 +58,9 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    padding: 0 1rem;\n+    padding: 1rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n"
+                },
+                {
+                    "date": 1711310985266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 0 1rem;\n+    padding: 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311019242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 1rem 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311030980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311052287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0 1rem 1rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311099193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0 1rem 1rem 1rem;\n+    padding: 1rem 1rem 1rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311109551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem 1rem 1rem 1rem;\n+    padding: 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311122531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0.5rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311135415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.5rem 1rem;\n+    padding: 0.5rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311146288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem 1rem 0 1rem;\n+    padding: 0.5rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311153434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 0.5rem;\n+    padding: 1rem 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311186429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n     padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n     border-radius: 0.625rem;\n }\n \n .profile__social-media a:hover {\n"
+                },
+                {
+                    "date": 1711311195120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 6em;\n+    padding: 2rem 6rem;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     /* margin-bottom: 1rem; */\n"
+                },
+                {
+                    "date": 1711311202689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 2rem 6rem;\n+    padding: 2rem 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     /* margin-bottom: 1rem; */\n"
+                },
+                {
+                    "date": 1711311214341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.5rem;\n+    padding: 0.5rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n@@ -67,13 +67,13 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 2rem 6em;\n+    padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n-    /* margin-bottom: 1rem; */\n+    margin-bottom: 1rem;\n     border-radius: 0.625rem;\n }\n \n .profile__social-media a:hover {\n"
+                },
+                {
+                    "date": 1711311224160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 6em;\n+    padding: 2em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711311234399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 2em 6em;\n+    padding: 2rem 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1711311264862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,13 +67,13 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 2rem 6em;\n+    padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n-    margin-bottom: 1rem;\n+    /* margin-bottom: 1rem; */\n     border-radius: 0.625rem;\n }\n \n .profile__social-media a:hover {\n"
+                },
+                {
+                    "date": 1711311278154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n     padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n-    /* margin-bottom: 1rem; */\n+    margin-bottom: 1rem;\n     border-radius: 0.625rem;\n }\n \n .profile__social-media a:hover {\n"
+                },
+                {
+                    "date": 1711311334977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n     padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n-    margin-bottom: 1rem;\n+    margin: 1rem 0;\n     border-radius: 0.625rem;\n }\n \n .profile__social-media a:hover {\n"
+                },
+                {
+                    "date": 1711311402097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 1rem;\n+    padding: 0.5rem 1rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711311420445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__avatar {\n-    max-width: 40%;\n+    max-width: 35%;\n     border-radius: 50%;\n     padding: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711311433652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     justify-content: center;\n }\n \n .profile__avatar {\n-    max-width: 35%;\n+    max-width: 40%;\n     border-radius: 50%;\n     padding: 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1711311443344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1rem;\n+    /* padding: 1rem; */\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311451086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    /* padding: 1rem; */\n+    padding: 1.1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311462076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,91 @@\n+@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n+\n+:root {\n+    --white: hsl(0, 0%, 100%);\n+    --grey: hsl(0, 0%, 20%);\n+    --dark-grey: hsl(0, 0%, 12%);\n+    --off-black: hsl(0, 0%, 8%);\n+    --green: hsl(75, 94%, 57%);\n+}\n+\n+*, *::after, *::before {\n+    margin: 0;\n+    padding: 0;\n+    box-sizing: border-box;\n+}\n+\n+body {\n+    font-family: \"Inter\", sans-serif;\n+    font-size: 14px;\n+    background-color: var(--off-black);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+    padding: 7rem 1rem;\n+}\n+\n+.profile {\n+    background-color: var(--dark-grey);\n+    padding: 0.5rem 1rem;\n+    border-radius: 0.75rem;\n+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+}\n+\n+.profile__avatar {\n+    max-width: 40%;\n+    border-radius: 50%;\n+    padding: 0.8rem;\n+}\n+\n+.profile__name {\n+    color: var(--white);\n+    font-size: 1.5rem;\n+    text-align: center;\n+    padding: 1rem 1rem 0 1rem;\n+}\n+\n+.profile__location {\n+    color: var(--green);\n+    font-size: 0.9rem;\n+    letter-spacing: -0.25px;\n+    text-align: center;\n+    padding: 0.5rem 1rem;\n+}\n+\n+.profile__bio {\n+    color: var(--white);\n+    text-align: center;\n+    padding: 1rem;\n+}\n+\n+.profile__social-media a {\n+    background-color: var(--grey);\n+    color: var(--white);\n+    width: 100%;\n+    font-weight: bold;\n+    padding: 1em 6em;\n+    text-align: center;\n+    text-decoration: none;\n+    display: block;\n+    margin: 1rem 0;\n+    border-radius: 0.625rem;\n+}\n+\n+.profile__social-media a:hover {\n+    background-color: var(--green);\n+    color: var(--off-black);\n+}\n+\n+.attribution {\n+    font-size: 11px;\n+    text-align: center;\n+}\n+\n+.attribution a {\n+    color: hsl(228, 45%, 44%);\n+}\n"
+                },
+                {
+                    "date": 1711311491490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1rem 1rem 0 1rem;\n+    padding: 0 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n@@ -88,95 +88,4 @@\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n-@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n-\n-:root {\n-    --white: hsl(0, 0%, 100%);\n-    --grey: hsl(0, 0%, 20%);\n-    --dark-grey: hsl(0, 0%, 12%);\n-    --off-black: hsl(0, 0%, 8%);\n-    --green: hsl(75, 94%, 57%);\n-}\n-\n-*, *::after, *::before {\n-    margin: 0;\n-    padding: 0;\n-    box-sizing: border-box;\n-}\n-\n-body {\n-    font-family: \"Inter\", sans-serif;\n-    font-size: 14px;\n-    background-color: var(--off-black);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-    padding: 7rem 1rem;\n-}\n-\n-.profile {\n-    background-color: var(--dark-grey);\n-    padding: 0.5rem 1rem;\n-    border-radius: 0.75rem;\n-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-}\n-\n-.profile__avatar {\n-    max-width: 40%;\n-    border-radius: 50%;\n-    padding: 1.1rem;\n-}\n-\n-.profile__name {\n-    color: var(--white);\n-    font-size: 1.5rem;\n-    text-align: center;\n-    padding: 1rem 1rem 0 1rem;\n-}\n-\n-.profile__location {\n-    color: var(--green);\n-    font-size: 0.9rem;\n-    letter-spacing: -0.25px;\n-    text-align: center;\n-    padding: 0.5rem 1rem;\n-}\n-\n-.profile__bio {\n-    color: var(--white);\n-    text-align: center;\n-    padding: 1rem;\n-}\n-\n-.profile__social-media a {\n-    background-color: var(--grey);\n-    color: var(--white);\n-    width: 100%;\n-    font-weight: bold;\n-    padding: 1em 6em;\n-    text-align: center;\n-    text-decoration: none;\n-    display: block;\n-    margin: 1rem 0;\n-    border-radius: 0.625rem;\n-}\n-\n-.profile__social-media a:hover {\n-    background-color: var(--green);\n-    color: var(--off-black);\n-}\n-\n-.attribution {\n-    font-size: 11px;\n-    text-align: center;\n-}\n-\n-.attribution a {\n-    color: hsl(228, 45%, 44%);\n-}\n"
+                },
+                {
+                    "date": 1711311500502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 0 1rem 0 1rem;\n+    padding: 1.2rem 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311508410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 0.8rem;\n+    padding: 0.7rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311517851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 0.7rem;\n+    padding: 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311526701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1rem;\n+    padding: 0.7rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311536539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 0.7rem;\n+    padding: 0.75rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311575895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,91 @@\n+@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n+\n+:root {\n+    --white: hsl(0, 0%, 100%);\n+    --grey: hsl(0, 0%, 20%);\n+    --dark-grey: hsl(0, 0%, 12%);\n+    --off-black: hsl(0, 0%, 8%);\n+    --green: hsl(75, 94%, 57%);\n+}\n+\n+*, *::after, *::before {\n+    margin: 0;\n+    padding: 0;\n+    box-sizing: border-box;\n+}\n+\n+body {\n+    font-family: \"Inter\", sans-serif;\n+    font-size: 14px;\n+    background-color: var(--off-black);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+    padding: 7rem 1rem;\n+}\n+\n+.profile {\n+    background-color: var(--dark-grey);\n+    padding: 0.5rem 1rem;\n+    border-radius: 0.75rem;\n+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+}\n+\n+.profile__avatar {\n+    max-width: 40%;\n+    border-radius: 50%;\n+    padding: 0.8rem;\n+}\n+\n+.profile__name {\n+    color: var(--white);\n+    font-size: 1.5rem;\n+    text-align: center;\n+    padding: 1.2rem 1rem 1rem 1rem;\n+}\n+\n+.profile__location {\n+    color: var(--green);\n+    font-size: 0.9rem;\n+    letter-spacing: -0.25px;\n+    text-align: center;\n+    padding: 0.5rem 1rem;\n+}\n+\n+.profile__bio {\n+    color: var(--white);\n+    text-align: center;\n+    padding: 1rem;\n+}\n+\n+.profile__social-media a {\n+    background-color: var(--grey);\n+    color: var(--white);\n+    width: 100%;\n+    font-weight: bold;\n+    padding: 1em 6em;\n+    text-align: center;\n+    text-decoration: none;\n+    display: block;\n+    margin: 1rem 0;\n+    border-radius: 0.625rem;\n+}\n+\n+.profile__social-media a:hover {\n+    background-color: var(--green);\n+    color: var(--off-black);\n+}\n+\n+.attribution {\n+    font-size: 11px;\n+    text-align: center;\n+}\n+\n+.attribution a {\n+    color: hsl(228, 45%, 44%);\n+}\n"
+                },
+                {
+                    "date": 1711311583832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,99 +45,8 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1.2rem 1rem 1rem 1rem;\n-}\n-\n-.profile__location {\n-    color: var(--green);\n-    font-size: 0.9rem;\n-    letter-spacing: -0.25px;\n-    text-align: center;\n-    padding: 0.5rem 1rem;\n-}\n-\n-.profile__bio {\n-    color: var(--white);\n-    text-align: center;\n-    padding: 1rem;\n-}\n-\n-.profile__social-media a {\n-    background-color: var(--grey);\n-    color: var(--white);\n-    width: 100%;\n-    font-weight: bold;\n-    padding: 1em 6em;\n-    text-align: center;\n-    text-decoration: none;\n-    display: block;\n-    margin: 1rem 0;\n-    border-radius: 0.625rem;\n-}\n-\n-.profile__social-media a:hover {\n-    background-color: var(--green);\n-    color: var(--off-black);\n-}\n-\n-.attribution {\n-    font-size: 11px;\n-    text-align: center;\n-}\n-\n-.attribution a {\n-    color: hsl(228, 45%, 44%);\n-}\n-@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n-\n-:root {\n-    --white: hsl(0, 0%, 100%);\n-    --grey: hsl(0, 0%, 20%);\n-    --dark-grey: hsl(0, 0%, 12%);\n-    --off-black: hsl(0, 0%, 8%);\n-    --green: hsl(75, 94%, 57%);\n-}\n-\n-*, *::after, *::before {\n-    margin: 0;\n-    padding: 0;\n-    box-sizing: border-box;\n-}\n-\n-body {\n-    font-family: \"Inter\", sans-serif;\n-    font-size: 14px;\n-    background-color: var(--off-black);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-    padding: 7rem 1rem;\n-}\n-\n-.profile {\n-    background-color: var(--dark-grey);\n-    padding: 0.5rem 1rem;\n-    border-radius: 0.75rem;\n-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-}\n-\n-.profile__avatar {\n-    max-width: 40%;\n-    border-radius: 50%;\n-    padding: 0.75rem;\n-}\n-\n-.profile__name {\n-    color: var(--white);\n-    font-size: 1.5rem;\n-    text-align: center;\n     padding: 1.2rem 1rem 0 1rem;\n }\n \n .profile__location {\n"
+                },
+                {
+                    "date": 1711311593492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1.2rem 1rem 0 1rem;\n+    padding: 1.3rem 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711311603249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.5rem 1rem;\n+    padding: 0.3rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311633115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.3rem 1rem;\n+    padding: 0.7rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n@@ -67,9 +67,9 @@\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 1em 6em;\n+    padding: 0.5em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin: 1rem 0;\n"
+                },
+                {
+                    "date": 1711311669407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,17 +59,17 @@\n \n .profile__bio {\n     color: var(--white);\n     text-align: center;\n-    padding: 1rem;\n+    padding: 0.8rem;\n }\n \n .profile__social-media a {\n     background-color: var(--grey);\n     color: var(--white);\n     width: 100%;\n     font-weight: bold;\n-    padding: 0.5em 6em;\n+    padding: 1em 6em;\n     text-align: center;\n     text-decoration: none;\n     display: block;\n     margin: 1rem 0;\n"
+                },
+                {
+                    "date": 1711311678681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     color: var(--green);\n     font-size: 0.9rem;\n     letter-spacing: -0.25px;\n     text-align: center;\n-    padding: 0.7rem 1rem;\n+    padding: 0.8rem 1rem;\n }\n \n .profile__bio {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311730347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n     justify-content: center;\n-    padding: 7rem 1rem;\n+    padding: 7rem 0;\n }\n \n .profile {\n     background-color: var(--dark-grey);\n"
+                },
+                {
+                    "date": 1711311790459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 0.5rem 1rem;\n+    padding: 0.5rem 1.5rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1711311830594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 0.8rem;\n+    padding: 1rem 0.8rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311837877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1rem 0.8rem;\n+    padding: 1.1rem 0.8rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311848168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1.1rem 0.8rem;\n+    padding: 1.2rem 1rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311880413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .profile {\n     background-color: var(--dark-grey);\n-    padding: 0.5rem 1.5rem;\n+    padding: 0.5rem 1.25rem;\n     border-radius: 0.75rem;\n     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n     display: flex;\n     flex-direction: column;\n@@ -38,9 +38,9 @@\n \n .profile__avatar {\n     max-width: 40%;\n     border-radius: 50%;\n-    padding: 1.2rem 1rem;\n+    padding: 1.2rem 0.8rem;\n }\n \n .profile__name {\n     color: var(--white);\n"
+                },
+                {
+                    "date": 1711311926375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n .profile__name {\n     color: var(--white);\n     font-size: 1.5rem;\n     text-align: center;\n-    padding: 1.3rem 1rem 0 1rem;\n+    padding: 0.5rem 1rem 0 1rem;\n }\n \n .profile__location {\n     color: var(--green);\n"
+                },
+                {
+                    "date": 1711312039458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,8 +83,9 @@\n \n .attribution {\n     font-size: 11px;\n     text-align: center;\n+    color: var(--white);\n }\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n"
+                },
+                {
+                    "date": 1711312061125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,8 +84,9 @@\n .attribution {\n     font-size: 11px;\n     text-align: center;\n     color: var(--white);\n+    margin-top: 2rem;\n }\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n"
+                },
+                {
+                    "date": 1711312169182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,4 +90,5 @@\n \n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n+\n"
+                },
+                {
+                    "date": 1711312184367,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,4 +91,5 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n+@media (min-width: 768px) {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312200048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,5 +91,7 @@\n .attribution a {\n     color: hsl(228, 45%, 44%);\n }\n \n-@media (min-width: 768px) {}\n\\ No newline at end of file\n+@media (min-width: 768px) {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312214531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,6 +92,8 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media (min-width: 768px) {\n-    \n+    body {\n+        \n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312222638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,7 +93,8 @@\n }\n \n @media (min-width: 768px) {\n     body {\n+        width: 430px;\n         \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312229664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,7 @@\n \n @media (min-width: 768px) {\n     body {\n         width: 430px;\n-        \n+        margin: 4rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312253340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,8 @@\n }\n \n @media (min-width: 768px) {\n     body {\n-        width: 430px;\n+        width: 5000px;\n         margin: 4rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312263175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,8 @@\n }\n \n @media (min-width: 768px) {\n     body {\n-        width: 5000px;\n+        width: 700px;\n         margin: 4rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312271830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,8 @@\n }\n \n @media (min-width: 768px) {\n     body {\n-        width: 700px;\n+        width: 400px;\n         margin: 4rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312281422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,7 @@\n \n @media (min-width: 768px) {\n     body {\n         width: 400px;\n-        margin: 4rem;\n+        /* margin: 4rem; */\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312297584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,7 @@\n \n @media (min-width: 768px) {\n     body {\n         width: 400px;\n-        /* margin: 4rem; */\n+        padding: 4rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312310118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,6 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media (min-width: 768px) {\n-    body {\n-        width: 400px;\n-        padding: 4rem;\n-    }\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312322206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,6 +92,8 @@\n     color: hsl(228, 45%, 44%);\n }\n \n @media (min-width: 768px) {\n-    \n+    .profile {\n+        \n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312332406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,7 +93,8 @@\n }\n \n @media (min-width: 768px) {\n     .profile {\n+        width: 400px;\n         \n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312351357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,7 @@\n \n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n-        \n+        margin: 1rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312359429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,7 @@\n \n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n-        margin: 1rem;\n+        margin: 3rem;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312435258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,7 +94,9 @@\n \n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n-        margin: 3rem;\n+        margin: 4rem;\n     }\n+\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312465411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,6 +97,8 @@\n         width: 400px;\n         margin: 4rem;\n     }\n \n-    \n+    .profile__avatar {\n+        width: 30%;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312473469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 30%;\n+        width: 35%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312483115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 35%;\n+        width: 40%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312489429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 40%;\n+        width: 30%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312500179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 30%;\n+        width: 25%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312513195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 25%;\n+        max-width: 25%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312525220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        max-width: 25%;\n+        max-width: 30%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312540785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        max-width: 30%;\n+        width: 30%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711312547402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,7 +98,7 @@\n         margin: 4rem;\n     }\n \n     .profile__avatar {\n-        width: 30%;\n+        max-width: 30%;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711313463994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,5 +100,9 @@\n \n     .profile__avatar {\n         max-width: 30%;\n     }\n+\n+    .profile__social-media a {\n+        padding: ;\n+    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711313489350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,7 +102,7 @@\n         max-width: 30%;\n     }\n \n     .profile__social-media a {\n-        padding: ;\n+        padding: 1em 7em;\n     }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711313538843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,8 +95,9 @@\n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n         margin: 4rem;\n+        padding: 1rem;\n     }\n \n     .profile__avatar {\n         max-width: 30%;\n"
+                },
+                {
+                    "date": 1711313550172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n         margin: 4rem;\n-        padding: 1rem;\n+        padding: 1rem 2rem;\n     }\n \n     .profile__avatar {\n         max-width: 30%;\n"
+                },
+                {
+                    "date": 1711313559684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n         margin: 4rem;\n-        padding: 1rem 2rem;\n+        padding: 1em;\n     }\n \n     .profile__avatar {\n         max-width: 30%;\n"
+                },
+                {
+                    "date": 1711313566906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n @media (min-width: 768px) {\n     .profile {\n         width: 400px;\n         margin: 4rem;\n-        padding: 1em;\n+        padding: 2rem;\n     }\n \n     .profile__avatar {\n         max-width: 30%;\n"
+                },
+                {
+                    "date": 1711313589167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        max-width: 30%;\n+        max-width: 40%;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313601594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        max-width: 40%;\n+        max-width: 35%;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313625759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        max-width: 35%;\n+        width: 35%;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313640324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,8 +100,9 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n+        padding: 1rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313660610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n-        padding: 1rem;\n+        padding: 1.2rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313670156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n-        padding: 1.2rem;\n+        padding: 0.9rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313683193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        width: 35%;\n+        width: 40%;\n         padding: 0.9rem;\n     }\n \n     .profile__social-media a {\n"
+                },
+                {
+                    "date": 1711313696177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        width: 40%;\n+        width: 35%;\n         padding: 0.9rem;\n     }\n \n     .profile__social-media a {\n"
+                },
+                {
+                    "date": 1711313702244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n-        padding: 0.9rem;\n+        padding: 0.8rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313710892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,110 @@\n+@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n+\n+:root {\n+    --white: hsl(0, 0%, 100%);\n+    --grey: hsl(0, 0%, 20%);\n+    --dark-grey: hsl(0, 0%, 12%);\n+    --off-black: hsl(0, 0%, 8%);\n+    --green: hsl(75, 94%, 57%);\n+}\n+\n+*, *::after, *::before {\n+    margin: 0;\n+    padding: 0;\n+    box-sizing: border-box;\n+}\n+\n+body {\n+    font-family: \"Inter\", sans-serif;\n+    font-size: 14px;\n+    background-color: var(--off-black);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+    padding: 7rem 0;\n+}\n+\n+.profile {\n+    background-color: var(--dark-grey);\n+    padding: 0.5rem 1.25rem;\n+    border-radius: 0.75rem;\n+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n+    display: flex;\n+    flex-direction: column;\n+    align-items: center;\n+    justify-content: center;\n+}\n+\n+.profile__avatar {\n+    max-width: 40%;\n+    border-radius: 50%;\n+    padding: 1.2rem 0.8rem;\n+}\n+\n+.profile__name {\n+    color: var(--white);\n+    font-size: 1.5rem;\n+    text-align: center;\n+    padding: 0.5rem 1rem 0 1rem;\n+}\n+\n+.profile__location {\n+    color: var(--green);\n+    font-size: 0.9rem;\n+    letter-spacing: -0.25px;\n+    text-align: center;\n+    padding: 0.8rem 1rem;\n+}\n+\n+.profile__bio {\n+    color: var(--white);\n+    text-align: center;\n+    padding: 0.8rem;\n+}\n+\n+.profile__social-media a {\n+    background-color: var(--grey);\n+    color: var(--white);\n+    width: 100%;\n+    font-weight: bold;\n+    padding: 1em 6em;\n+    text-align: center;\n+    text-decoration: none;\n+    display: block;\n+    margin: 1rem 0;\n+    border-radius: 0.625rem;\n+}\n+\n+.profile__social-media a:hover {\n+    background-color: var(--green);\n+    color: var(--off-black);\n+}\n+\n+.attribution {\n+    font-size: 11px;\n+    text-align: center;\n+    color: var(--white);\n+    margin-top: 2rem;\n+}\n+\n+.attribution a {\n+    color: hsl(228, 45%, 44%);\n+}\n+\n+@media (min-width: 768px) {\n+    .profile {\n+        width: 400px;\n+        margin: 4rem;\n+        padding: 2rem;\n+    }\n+\n+    .profile__avatar {\n+        width: 35%;\n+        padding: 0.5rem;\n+    }\n+\n+    .profile__social-media a {\n+        padding: 1em 7em;\n+    }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711313717784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,121 +100,11 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n-        padding: 0.5rem;\n+        padding: 1rem 0.5rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n     }\n-}\n-@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n-\n-:root {\n-    --white: hsl(0, 0%, 100%);\n-    --grey: hsl(0, 0%, 20%);\n-    --dark-grey: hsl(0, 0%, 12%);\n-    --off-black: hsl(0, 0%, 8%);\n-    --green: hsl(75, 94%, 57%);\n-}\n-\n-*, *::after, *::before {\n-    margin: 0;\n-    padding: 0;\n-    box-sizing: border-box;\n-}\n-\n-body {\n-    font-family: \"Inter\", sans-serif;\n-    font-size: 14px;\n-    background-color: var(--off-black);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-    padding: 7rem 0;\n-}\n-\n-.profile {\n-    background-color: var(--dark-grey);\n-    padding: 0.5rem 1.25rem;\n-    border-radius: 0.75rem;\n-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n-    display: flex;\n-    flex-direction: column;\n-    align-items: center;\n-    justify-content: center;\n-}\n-\n-.profile__avatar {\n-    max-width: 40%;\n-    border-radius: 50%;\n-    padding: 1.2rem 0.8rem;\n-}\n-\n-.profile__name {\n-    color: var(--white);\n-    font-size: 1.5rem;\n-    text-align: center;\n-    padding: 0.5rem 1rem 0 1rem;\n-}\n-\n-.profile__location {\n-    color: var(--green);\n-    font-size: 0.9rem;\n-    letter-spacing: -0.25px;\n-    text-align: center;\n-    padding: 0.8rem 1rem;\n-}\n-\n-.profile__bio {\n-    color: var(--white);\n-    text-align: center;\n-    padding: 0.8rem;\n-}\n-\n-.profile__social-media a {\n-    background-color: var(--grey);\n-    color: var(--white);\n-    width: 100%;\n-    font-weight: bold;\n-    padding: 1em 6em;\n-    text-align: center;\n-    text-decoration: none;\n-    display: block;\n-    margin: 1rem 0;\n-    border-radius: 0.625rem;\n-}\n-\n-.profile__social-media a:hover {\n-    background-color: var(--green);\n-    color: var(--off-black);\n-}\n-\n-.attribution {\n-    font-size: 11px;\n-    text-align: center;\n-    color: var(--white);\n-    margin-top: 2rem;\n-}\n-\n-.attribution a {\n-    color: hsl(228, 45%, 44%);\n-}\n-\n-@media (min-width: 768px) {\n-    .profile {\n-        width: 400px;\n-        margin: 4rem;\n-        padding: 2rem;\n-    }\n-\n-    .profile__avatar {\n-        width: 35%;\n-        padding: 0.8rem;\n-    }\n-\n-    .profile__social-media a {\n-        padding: 1em 7em;\n-    }\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711313732109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     }\n \n     .profile__avatar {\n         width: 35%;\n-        padding: 1rem 0.5rem;\n+        padding: 0.5rem;\n     }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n"
+                },
+                {
+                    "date": 1711313743827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n         padding: 2rem;\n     }\n \n     .profile__avatar {\n-        width: 35%;\n+        width: 30%;\n         padding: 0.5rem;\n     }\n \n     .profile__social-media a {\n"
+                },
+                {
+                    "date": 1711313780325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,9 +103,11 @@\n         width: 30%;\n         padding: 0.5rem;\n     }\n \n-    .profile__name {}\n+    .profile__name {\n+        \n+    }\n \n     .profile__social-media a {\n         padding: 1em 7em;\n     }\n"
+                },
+                {
+                    "date": 1711313837173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,11 +107,11 @@\n     .profile__name {\n         padding: 1rem;\n     }\n \n-    .profile__location {\n+    /* .profile__location {\n         padding: 0.1rem;\n-    }\n+    } */\n \n     .profile__social-media a {\n         padding: 1em 7em;\n     }\n"
+                }
+            ],
+            "date": 1711305175425,
+            "name": "Commit-0",
+            "content": "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap\");\n\n:root {\n    --white: hsl(0, 0%, 100%);\n    --grey: hsl(0, 0%, 20%);\n    --dark-grey: hsl(0, 0%, 12%);\n    --off-black: hsl(0, 0%, 8%);\n    --green: hsl(75, 94%, 57%);\n}\n\n*, *::after, *::before {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\nbody {\n    font-family: \"Inter\", sans-serif;\n    font-size: 14px;\n    background-color: var(--off-black);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    padding: ;\n}\n\n.profile {\n    background-color: var(--dark-grey);\n    padding: 2rem;\n    border-radius: 0.75rem;\n    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: 7rem 2rem;\n}\n\n.profile__avatar {\n    max-width: 35%;\n    border-radius: 50%;\n    margin-bottom: 1rem;\n}\n\n.profile__name {\n    color: var(--white);\n    text-align: center;\n    margin-bottom: 1rem;\n}\n\n.profile__location {\n    color: var(--green);\n    text-align: center;\n    margin-bottom: 2rem;\n}\n\n.profile__bio {\n    color: var(--white);\n    text-align: center;\n    margin-bottom: 2rem;\n}\n\n.profile__social-media a {\n    background-color: var(--grey);\n    color: var(--white);\n    width: 100%;\n    font-weight: bold;\n    padding: 10px 30px;\n    text-align: center;\n    text-decoration: none;\n    display: block;\n    margin-bottom: 1rem;\n    border-radius: 0.625rem;\n}\n\n.profile__social-media a:hover {\n    background-color: var(--green);\n    color: var(--off-black);\n}\n\n\n.attribution {\n    font-size: 11px;\n    text-align: center;\n}\n\n.attribution a {\n    color: hsl(228, 45%, 44%);\n}\n"
+        }
+    ]
+}
